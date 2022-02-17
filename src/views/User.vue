@@ -1,7 +1,6 @@
 <template>
   <div class="container py-5">
     <!-- UserProfileCard -->
-    史丹利哭RRRR
     <UserProfileCard
         :user="user"
         :initial-is-followed="isFollowed"
