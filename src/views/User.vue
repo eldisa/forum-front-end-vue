@@ -1285,4 +1285,8 @@ export default {
     },
   }
 }
+<<<<<<< HEAD
 </script>
+=======
+</script>
+>>>>>>> master
