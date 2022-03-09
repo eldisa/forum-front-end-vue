@@ -14,7 +14,7 @@
       >
         <router-link :to="{ name: 'user', params: { id: user.id } }">
           <img
-              :src="user.image "
+              :src="user.image | emptyImage"
               width="140px"
               height="140px"
           >
@@ -45,7 +45,7 @@
 </template>
 <script>
 import NavTabs from "../components/NavTabs";
-
+import {emptyImageFilter} from './../utils/mixins'
 const dummyData =
     {
       "users": [
@@ -418,6 +418,7 @@ const dummyData =
 
 
 export default {
+  mixins: [emptyImageFilter],
   components: {
     NavTabs,
   },
