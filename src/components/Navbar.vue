@@ -26,7 +26,8 @@
       <div class="ml-auto d-flex align-items-center">
         <!-- is user is admin -->
         <router-link
-            to="#"
+            v-if="currentUser.isAdmin"
+            to="/admin"
             class="text-white mr-3"
         >
           管理員後台
