@@ -8,7 +8,9 @@
     <router-link to="/admin/categories">
       Catrgories
     </router-link> |
-    <a href="#">Users</a>
+    <router-link to="/admin/users">
+      Users
+    </router-link>
   </div>
 </template>
 

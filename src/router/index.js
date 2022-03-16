@@ -47,6 +47,11 @@ export default new Router({
             component: () => import('../views/AdminCategories.vue')
         },
         {
+            path: '/admin/users',
+            name: 'admin-users',
+            component: () => import('../views/AdminUsers.vue')
+        },
+        {
             path: '/signin',
             name: 'sign-in',
             component: SignIn
